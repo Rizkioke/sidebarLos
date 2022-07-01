@@ -1,0 +1,28 @@
+<jhi-page-ribbon></jhi-page-ribbon>
+
+<p-toast></p-toast>
+<ngx-loading-bar></ngx-loading-bar>
+<div>
+  <router-outlet name="navbar"></router-outlet>
+</div>
+<jhi-treeview></jhi-treeview>
+<div class="container-fluid">
+  <div clas="wrapper">
+    <div class="card jh-card">
+      <div class="content"><router-outlet></router-outlet></div>
+    </div>
+  </div>
+  <!-- <jhi-treeview id='asd' [fields]='field' [cssClass]='cssClass'></jhi-treeview> -->
+
+  <jhi-footer></jhi-footer>
+  <jhi-watermark></jhi-watermark>
+</div>
+<p-confirmDialog></p-confirmDialog>
+
+<!-- <style>
+  .wrapper {
+    display: flex !important;
+    flex-direction: column-reverse;
+
+  }
+</style>  -->
